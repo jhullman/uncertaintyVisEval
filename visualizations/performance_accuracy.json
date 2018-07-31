@@ -1,0 +1,1418 @@
+{
+    "nodes": [
+        {
+            "name": "Performance",
+            "color": "1a78b6"
+        },
+        {
+            "name": "Reading ease",
+            "color": "f18e29"
+        },
+        {
+            "name": "Efficiency",
+            "color": "f18e29"
+        },
+        {
+            "name": "Satisfaction",
+            "color": "f18e29"
+        },
+        {
+            "name": "Recall/memory",
+            "color": "f18e29"
+        },
+        {
+            "name": "Judgment awareness",
+            "color": "f18e29"
+        },
+        {
+            "name": "Risk aversion",
+            "color": "f18e29"
+        },
+        {
+            "name": "Interaction",
+            "color": "f18e29"
+        },
+        {
+            "name": "Decision quality",
+            "color": "f18e29"
+        },
+        {
+            "name": "None implied",
+            "color": "f18e29"
+        },
+        {
+            "name": "Trust/confidence",
+            "color": "f18e29"
+        },
+        {
+            "name": "Compare visualizations",
+            "color": "77b8b3"
+        },
+        {
+            "name": "Compare users",
+            "color": "77b8b3"
+        },
+        {
+            "name": "Test impact of uncertainty",
+            "color": "77b8b3"
+        },
+        {
+            "name": "Understand use",
+            "color": "77b8b3"
+        },
+        {
+            "name": "Validate visualization",
+            "color": "77b8b3"
+        },
+        {
+            "name": "Perceived effort/ability",
+            "color": "b07aa1"
+        },
+        {
+            "name": "Self-reported satisfaction",
+            "color": "b07aa1"
+        },
+        {
+            "name": "Self-reported intention",
+            "color": "b07aa1"
+        },
+        {
+            "name": "Interaction logs",
+            "color": "b07aa1"
+        },
+        {
+            "name": "Self-reported action",
+            "color": "b07aa1"
+        },
+        {
+            "name": "Recalled value/state",
+            "color": "b07aa1"
+        },
+        {
+            "name": "Eye movement",
+            "color": "b07aa1"
+        },
+        {
+            "name": "Willingness to pay",
+            "color": "b07aa1"
+        },
+        {
+            "name": "Perceived risk/reliability",
+            "color": "b07aa1"
+        },
+        {
+            "name": "Subjective confidence",
+            "color": "b07aa1"
+        },
+        {
+            "name": "Value/state nominal",
+            "color": "b07aa1"
+        },
+        {
+            "name": "Spontaneous impression",
+            "color": "b07aa1"
+        },
+        {
+            "name": "Decision",
+            "color": "b07aa1"
+        },
+        {
+            "name": "Value/state continuous",
+            "color": "b07aa1"
+        },
+        {
+            "name": "Rank by data attribute",
+            "color": "b07aa1"
+        },
+        {
+            "name": "Probability",
+            "color": "b07aa1"
+        },
+        {
+            "name": "Galvanized Skin Response (GSR)",
+            "color": "b07aa1"
+        },
+        {
+            "name": "Value/state ordinal",
+            "color": "b07aa1"
+        },
+        {
+            "name": "Not specified",
+            "color": "b07aa1"
+        },
+        {
+            "name": "Time",
+            "color": "b07aa1"
+        },
+        {
+            "name": "Error",
+            "color": "b07aa1"
+        },
+        {
+            "name": "Distance between fixations",
+            "color": "b07aa1"
+        },
+        {
+            "name": "Frequency of short distances",
+            "color": "b07aa1"
+        },
+        {
+            "name": "Correlation with ground truth",
+            "color": "b07aa1"
+        },
+        {
+            "name": "Change in perception/belief",
+            "color": "b07aa1"
+        },
+        {
+            "name": "Number of interactions",
+            "color": "b07aa1"
+        },
+        {
+            "name": "Utility Maximization",
+            "color": "b07aa1"
+        },
+        {
+            "name": "Strategy",
+            "color": "b07aa1"
+        },
+        {
+            "name": "Compliance with strategy",
+            "color": "b07aa1"
+        },
+        {
+            "name": "Bias",
+            "color": "b07aa1"
+        },
+        {
+            "name": "GSR features",
+            "color": "b07aa1"
+        },
+        {
+            "name": "Text entry",
+            "color": "edc848"
+        },
+        {
+            "name": "Multiple choice",
+            "color": "edc848"
+        },
+        {
+            "name": "NA/Implicit",
+            "color": "edc848"
+        },
+        {
+            "name": "Spoken response",
+            "color": "b07aa1"
+        },
+        {
+            "name": "Eye tracking",
+            "color": "edc848"
+        },
+        {
+            "name": "Likert",
+            "color": "edc848"
+        },
+        {
+            "name": "Physical apparatus",
+            "color": "edc848"
+        },
+        {
+            "name": "Think-aloud protocol",
+            "color": "edc848"
+        },
+        {
+            "name": "Direct selection",
+            "color": "b07aa1"
+        },
+        {
+            "name": "Graphical",
+            "color": "edc848"
+        },
+        {
+            "name": "Slider",
+            "color": "edc848"
+        },
+        {
+            "name": "GSR tracker",
+            "color": "edc848"
+        },
+        {
+            "name": "Unspecified",
+            "color": "edc848"
+        },
+        {
+            "name": "Summary stats",
+            "color": "58a14d"
+        },
+        {
+            "name": "Frequentist NHST",
+            "color": "58a14d"
+        },
+        {
+            "name": "Qualitative coding",
+            "color": "58a14d"
+        },
+        {
+            "name": "Frequentist estimation",
+            "color": "58a14d"
+        },
+        {
+            "name": "Bayesian estimation",
+            "color": "58a14d"
+        }
+    ],
+    "links": [
+        {
+            "source": 0,
+            "target": 1,
+            "value": 7,
+            "studies":"Aerts2003, Dong2012, MacEachren1997, Khan2015, Greis2015"
+        },
+        {
+            "source": 0,
+            "target": 2,
+            "value": 32,
+            "studies":"Aerts2003, Micallef2012, Simpson2014, Kreuzmair2016, Seipel2017, Li2007, Andre1998, Khan2015, Hansen2014 , Huff2008, Prabni2010, Gschwandtner2016, Leitner2000, Calver2017, Lee2007, Riveiro2014, Riveiro2014, Chlan2005, Hullman2018, Cheong2016, Franklin2016, He2017"
+        },
+        {
+            "source": 0,
+            "target": 3,
+            "value": 6,
+            "studies":"Aerts2003, Simpson2014, Dong2012, Seipel2017, Kay2016"
+        },
+        {
+            "source": 0,
+            "target": 4,
+            "value": 3,
+            "studies":"Micallef2012, Chua2006, Hullman2018"
+        },
+        {
+            "source": 0,
+            "target": 5,
+            "value": 3,
+            "studies":"Belia2005, Seipel2017, Nadav-Greenberg2009"
+        },
+        {
+            "source": 0,
+            "target": 6,
+            "value": 13,
+            "studies":"Dong2012, Herring2017, Andre1998, Yildiz2017, Hope2007, Joslyn2012"
+        },
+        {
+            "source": 0,
+            "target": 7,
+            "value": 1,
+            "studies":"Hansen2014 "
+        },
+        {
+            "source": 0,
+            "target": 8,
+            "value": 14,
+            "studies":"Bisantz2005, Greis2015, Correll2018, Deitrick2007, Joslyn2012, Cheong2016"
+        },
+        {
+            "source": 0,
+            "target": 9,
+            "value": 17,
+            "studies":"Daradkeh2015, Ibrekk1987, Cox2013, Newman2009, Ramos2010, Wunderlich2017, Gerharz2009, Riveiro2014, Riveiro2014"
+        },
+        {
+            "source": 0,
+            "target": 10,
+            "value": 5,
+            "studies":"Helldin2013, Zhou2017, Riveiro2014"
+        },
+        {
+            "source": 1,
+            "target": 11,
+            "value": 6,
+            "studies":"Aerts2003MacEachren1997, Khan2015, Greis2015"
+        },
+        {
+            "source": 1,
+            "target": 12,
+            "value": 4,
+            "studies":"Aerts2003, Dong2012"
+        },
+        {
+            "source": 1,
+            "target": 13,
+            "value": 3,
+            "studies":"Dong2012, MacEachren1997, Greis2015"
+        },
+        {
+            "source": 2,
+            "target": 11,
+            "value": 22,
+            "studies":"Aerts2003, Micallef2012, Simpson2014, Seipel2017, Li2007, Andre1998, Khan2015, Huff2008, Prabni2010, Huff2008, Gschwandtner2016, Leitner2000, Gschwandtner2016, Chlan2005, Hullman2018, Cheong2016, Franklin2016"
+        },
+        {
+            "source": 2,
+            "target": 12,
+            "value": 7,
+            "studies":"Aerts2003, Simpson2014, Kreuzmair2016, Calver2017"
+        },
+        {
+            "source": 2,
+            "target": 13,
+            "value": 8,
+            "studies":"Simpson2014, Andre1998, Hansen2014, Leitner2000, Riveiro2014"
+        },
+        {
+            "source": 2,
+            "target": 14,
+            "value": 4,
+            "studies":"Micallef2012, Kreuzmair2016"
+        },
+        {
+            "source": 2,
+            "target": 15,
+            "value": 5,
+            "studies":"Hansen2014, Lee2007, Lee2007, He2017"
+        },
+        {
+            "source": 3,
+            "target": 11,
+            "value": 4,
+            "studies":"Simpson2014, Seipel2017, Kay2016"
+        },
+        {
+            "source": 3,
+            "target": 12,
+            "value": 2,
+            "studies":"Simpson2014, Dong2012"
+        },
+        {
+            "source": 3,
+            "target": 13,
+            "value": 3,
+            "studies":"Aerts2003, Simpson2014, Dong2012"
+        },
+        {
+            "source": 4,
+            "target": 11,
+            "value": 2,
+            "studies":"Micallef2012, Hullman2018"
+        },
+        {
+            "source": 4,
+            "target": 14,
+            "value": 1,
+            "studies":"Chua2006"
+        },
+        {
+            "source": 5,
+            "target": 11,
+            "value": 2,
+            "studies":"Seipel2017, Nadav-Greenberg2009"
+        },
+        {
+            "source": 5,
+            "target": 12,
+            "value": 1,
+            "studies":"Belia2005"
+        },
+        {
+            "source": 5,
+            "target": 14,
+            "value": 1,
+            "studies":"Belia2005"
+        },
+        {
+            "source": 5,
+            "target": 15,
+            "value": 1,
+            "studies":"Nadav-Greenberg2009"
+        },
+        {
+            "source": 6,
+            "target": 11,
+            "value": 8,
+            "studies":"Herring2017, Andre1998, Yildiz2017, Hope2007"
+        },
+        {
+            "source": 6,
+            "target": 12,
+            "value": 9,
+            "studies":"Dong2012, Herring2017, Yildiz2017"
+        },
+        {
+            "source": 6,
+            "target": 13,
+            "value": 6,
+            "studies":"Dong2012, Andre1998, Joslyn2012"
+        },
+        {
+            "source": 7,
+            "target": 13,
+            "value": 1,
+            "studies":"Hansen2014" 
+        },
+        {
+            "source": 7,
+            "target": 15,
+            "value": 1,
+            "studies":"Hansen2014" 
+        },
+        {
+            "source": 8,
+            "target": 11,
+            "value": 11,
+            "studies":"Bisantz2005, Greis2015, Correll2018, Cheong2016"
+        },
+        {
+            "source": 8,
+            "target": 13,
+            "value": 5,
+            "studies":"Greis2015, Deitrick2007, Joslyn2012"
+        },
+        {
+            "source": 9,
+            "target": 11,
+            "value": 5,
+            "studies":"Ibrekk1987, Cox2013, Daradkeh2015, Wunderlich2017, Gerharz2009"
+        },
+        {
+            "source": 9,
+            "target": 13,
+            "value": 4,
+            "studies":"Ramos2010, Ramos2010, Riveiro2014"
+        },
+        {
+            "source": 9,
+            "target": 14,
+            "value": 10,
+            "studies":"Daradkeh2015, Ibrekk1987, Newman2009, Wunderlich2017"
+        },
+        {
+            "source": 9,
+            "target": 15,
+            "value": 4,
+            "studies":"Daradkeh2015, Riveiro2014"
+        },
+        {
+            "source": 10,
+            "target": 13,
+            "value": 5,
+            "studies":"Helldin2013, Zhou2017, Riveiro2014"
+        },
+        {
+            "source": 11,
+            "target": 16,
+            "value": 5,
+            "studies":"Aerts2003, Seipel2017, MacEachren1997"
+        },
+        {
+            "source": 11,
+            "target": 17,
+            "value": 5,
+            "studies":"Aerts2003, Simpson2014, Seipel2017, Greis2015"
+        },
+        {
+            "source": 11,
+            "target": 18,
+            "value": 2,
+            "studies":"Aerts2003, Nadav-Greenberg2009"
+        },
+        {
+            "source": 11,
+            "target": 19,
+            "value": 18,
+            "studies":"Micallef2012, Simpson2014, Seipel2017, Li2007, Andre1998, Khan2015, Huff2008, Prabni2010, Bisantz2005, Gschwandtner2016, Leitner2000, Chlan2005, Hullman2018, Cheong2016, Franklin2016"
+        },
+        {
+            "source": 11,
+            "target": 20,
+            "value": 5,
+            "studies":"Micallef2012, Simpson2014, Seipel2017, Daradkeh2015"
+        },
+        {
+            "source": 11,
+            "target": 21,
+            "value": 2,
+            "studies":"Micallef2012, Hullman2018"
+        },
+        {
+            "source": 11,
+            "target": 23,
+            "value": 2,
+            "studies":"Bisantz2005"
+        },
+        {
+            "source": 11,
+            "target": 24,
+            "value": 4,
+            "studies":"Herring2017, Yildiz2017"
+        },
+        {
+            "source": 11,
+            "target": 25,
+            "value": 2,
+            "studies":"Herring2017, Kay2016"
+        },
+        {
+            "source": 11,
+            "target": 26,
+            "value": 2,
+            "studies":"Andre1998, Ibrekk1987"
+        },
+        {
+            "source": 11,
+            "target": 27,
+            "value": 1,
+            "studies":"Khan2015"
+        },
+        {
+            "source": 11,
+            "target": 28,
+            "value": 9,
+            "studies":"Yildiz2017, Bisantz2005, Hope2007, Greis2015, Correll2018, Cheong2016"
+        },
+        {
+            "source": 11,
+            "target": 30,
+            "value": 1,
+            "studies":"Wunderlich2017"
+        },
+        {
+            "source": 11,
+            "target": 31,
+            "value": 1,
+            "studies":"Cox2013"
+        },
+        {
+            "source": 11,
+            "target": 34,
+            "value": 1,
+            "studies":"Gerharz2009"
+        },
+        {
+            "source": 12,
+            "target": 16,
+            "value": 5,
+            "studies":"Aerts2003, Dong2012"
+        },
+        {
+            "source": 12,
+            "target": 17,
+            "value": 2,
+            "studies":"Aerts2003, Simpson2014"
+        },
+        {
+            "source": 12,
+            "target": 18,
+            "value": 2,
+            "studies":"Aerts2003, Dong2012"
+        },
+        {
+            "source": 12,
+            "target": 19,
+            "value": 2,
+            "studies":"Simpson2014, Calver2017"
+        },
+        {
+            "source": 12,
+            "target": 20,
+            "value": 3,
+            "studies":"Belia2005, Simpson2014, Dong2012"
+        },
+        {
+            "source": 12,
+            "target": 22,
+            "value": 2,
+            "studies":"Kreuzmair2016"
+        },
+        {
+            "source": 12,
+            "target": 23,
+            "value": 1,
+            "studies":"Dong2012"
+        },
+        {
+            "source": 12,
+            "target": 24,
+            "value": 4,
+            "studies":"Herring2017, Yildiz2017"
+        },
+        {
+            "source": 12,
+            "target": 25,
+            "value": 1,
+            "studies":"Herring2017"
+        },
+        {
+            "source": 12,
+            "target": 28,
+            "value": 1,
+            "studies":"Yildiz2017"
+        },
+        {
+            "source": 13,
+            "target": 16,
+            "value": 4,
+            "studies":"Aerts2003, Dong2012, MacEachren1997"
+        },
+        {
+            "source": 13,
+            "target": 17,
+            "value": 3,
+            "studies":"Simpson2014, Hansen2014 , Greis2015"
+        },
+        {
+            "source": 13,
+            "target": 18,
+            "value": 1,
+            "studies":"Dong2012"
+        },
+        {
+            "source": 13,
+            "target": 19,
+            "value": 10,
+            "studies":"Simpson2014, Andre1998, Hansen2014 , Helldin2013, Leitner2000, Riveiro2014"
+        },
+        {
+            "source": 13,
+            "target": 20,
+            "value": 4,
+            "studies":"Simpson2014, Dong2012, Riveiro2014"
+        },
+        {
+            "source": 13,
+            "target": 23,
+            "value": 1,
+            "studies":"Dong2012"
+        },
+        {
+            "source": 13,
+            "target": 25,
+            "value": 1,
+            "studies":"Riveiro2014"
+        },
+        {
+            "source": 13,
+            "target": 26,
+            "value": 1,
+            "studies":"Andre1998"
+        },
+        {
+            "source": 13,
+            "target": 28,
+            "value": 6,
+            "studies":"Greis2015, Joslyn2012, Ramos2010"
+        },
+        {
+            "source": 13,
+            "target": 30,
+            "value": 2,
+            "studies":"Deitrick2007"
+        },
+        {
+            "source": 13,
+            "target": 32,
+            "value": 1,
+            "studies":"Zhou2017"
+        },
+        {
+            "source": 13,
+            "target": 33,
+            "value": 1,
+            "studies":"Ramos2010"
+        },
+        {
+            "source": 14,
+            "target": 20,
+            "value": 4,
+            "studies":"Micallef2012, Belia2005, Daradkeh2015"
+        },
+        {
+            "source": 14,
+            "target": 22,
+            "value": 2,
+            "studies":"Kreuzmair2016, Kreuzmair2016"
+        },
+        {
+            "source": 14,
+            "target": 26,
+            "value": 1,
+            "studies":"Ibrekk1987"
+        },
+        {
+            "source": 14,
+            "target": 28,
+            "value": 2,
+            "studies":"Daradkeh2015, Newman2009"
+        },
+        {
+            "source": 14,
+            "target": 29,
+            "value": 1,
+            "studies":"Chua2006"
+        },
+        {
+            "source": 14,
+            "target": 30,
+            "value": 1,
+            "studies":"Wunderlich2017"
+        },
+        {
+            "source": 14,
+            "target": 31,
+            "value": 5,
+            "studies": "Newman2009"
+        },
+        {
+            "source": 15,
+            "target": 17,
+            "value": 1,
+            "studies":"Hansen2014" 
+        },
+        {
+            "source": 15,
+            "target": 18,
+            "value": 1,
+            "studies":"Nadav-Greenberg2009"
+        },
+        {
+            "source": 15,
+            "target": 19,
+            "value": 4,
+            "studies":"Hansen2014 , Lee2007, He2017"
+        },
+        {
+            "source": 15,
+            "target": 20,
+            "value": 3,
+            "studies":"Daradkeh2015, Riveiro2014"
+        },
+        {
+            "source": 15,
+            "target": 26,
+            "value": 1,
+            "studies":"Lee2007"
+        },
+        {
+            "source": 15,
+            "target": 28,
+            "value": 1,
+            "studies":"Daradkeh2015"
+        },
+        {
+            "source": 16,
+            "target": 47,
+            "value": 2,
+            "studies":"Aerts2003"
+        },
+        {
+            "source": 16,
+            "target": 48,
+            "value": 2,
+            "studies":"Aerts2003"
+        },
+        {
+            "source": 16,
+            "target": 52,
+            "value": 4,
+            "studies":"Dong2012, Seipel2017, MacEachren1997"
+        },
+        {
+            "source": 17,
+            "target": 48,
+            "value": 1,
+            "studies":"Aerts2003"
+        },
+        {
+            "source": 17,
+            "target": 50,
+            "value": 1,
+            "studies":"Simpson2014"
+        },
+        {
+            "source": 17,
+            "target": 52,
+            "value": 4,
+            "studies":"Seipel2017, Hansen2014 , Greis2015"
+        },
+        {
+            "source": 18,
+            "target": 39,
+            "value": 1,
+            "studies":"Dong2012"
+        },
+        {
+            "source": 18,
+            "target": 48,
+            "value": 2,
+            "studies":"Aerts2003, Nadav-Greenberg2009"
+        },
+        {
+            "source": 19,
+            "target": 35,
+            "value": 23,
+            "studies":"Micallef2012, Simpson2014, Seipel2017, Li2007, Andre1998, Khan2015, Hansen2014 , Huff2008, Prabni2010, Bisantz2005, Huff2008, Gschwandtner2016, Helldin2013, Leitner2000, Gschwandtner2016, Lee2007, Riveiro2014, Chlan2005, Hullman2018, Cheong2016, He2017"
+        },
+        {
+            "source": 19,
+            "target": 41,
+            "value": 4,
+            "studies":"Hansen2014 , Helldin2013, Riveiro2014, Franklin2016"
+        },
+        {
+            "source": 19,
+            "target": 49,
+            "value": 1,
+            "studies":"Calver2017"
+        },
+        {
+            "source": 20,
+            "target": 43,
+            "value": 2,
+            "studies":"Daradkeh2015"
+        },
+        {
+            "source": 20,
+            "target": 47,
+            "value": 5,
+            "studies":"Micallef2012, Belia2005, Dong2012, Seipel2017"
+        },
+        {
+            "source": 20,
+            "target": 48,
+            "value": 1,
+            "studies":"Riveiro2014"
+        },
+        {
+            "source": 20,
+            "target": 50,
+            "value": 1,
+            "studies":"Simpson2014"
+        },
+        {
+            "source": 20,
+            "target": 52,
+            "value": 1,
+            "studies":"Riveiro2014"
+        },
+        {
+            "source": 21,
+            "target": 36,
+            "value": 2,
+            "studies":"Micallef2012, Hullman2018"
+        },
+        {
+            "source": 22,
+            "target": 37,
+            "value": 1,
+            "studies":"Kreuzmair2016"
+        },
+        {
+            "source": 22,
+            "target": 38,
+            "value": 1,
+            "studies":"Kreuzmair2016"
+        },
+        {
+            "source": 23,
+            "target": 42,
+            "value": 1,
+            "studies":"Bisantz2005"
+        },
+        {
+            "source": 23,
+            "target": 47,
+            "value": 2,
+            "studies":"Dong2012, Bisantz2005"
+        },
+        {
+            "source": 24,
+            "target": 40,
+            "value": 2,
+            "studies":"Herring2017"
+        },
+        {
+            "source": 24,
+            "target": 52,
+            "value": 2,
+            "studies":"Yildiz2017"
+        },
+        {
+            "source": 25,
+            "target": 40,
+            "value": 1,
+            "studies":"Herring2017"
+        },
+        {
+            "source": 25,
+            "target": 52,
+            "value": 1,
+            "studies":"Riveiro2014"
+        },
+        {
+            "source": 25,
+            "target": 57,
+            "value": 1,
+            "studies":"Kay2016"
+        },
+        {
+            "source": 26,
+            "target": 35,
+            "value": 1,
+            "studies":"Lee2007"
+        },
+        {
+            "source": 26,
+            "target": 36,
+            "value": 1,
+            "studies":"Andre1998"
+        },
+        {
+            "source": 26,
+            "target": 44,
+            "value": 1,
+            "studies":"Ibrekk1987"
+        },
+        {
+            "source": 27,
+            "target": 47,
+            "value": 1,
+            "studies":"Khan2015"
+        },
+        {
+            "source": 28,
+            "target": 36,
+            "value": 2,
+            "studies":"Joslyn2012, Cheong2016"
+        },
+        {
+            "source": 28,
+            "target": 42,
+            "value": 4,
+            "studies":"Bisantz2005, Bisantz2005, Greis2015, Joslyn2012"
+        },
+        {
+            "source": 28,
+            "target": 44,
+            "value": 1,
+            "studies":"Greis2015"
+        },
+        {
+            "source": 28,
+            "target": 45,
+            "value": 2,
+            "studies":"Joslyn2012, Newman2009"
+        },
+        {
+            "source": 28,
+            "target": 48,
+            "value": 4,
+            "studies":"Yildiz2017, Hope2007, Daradkeh2015, Cheong2016"
+        },
+        {
+            "source": 28,
+            "target": 50,
+            "value": 1,
+            "studies":"Ramos2010"
+        },
+        {
+            "source": 28,
+            "target": 55,
+            "value": 1,
+            "studies":"Correll2018"
+        },
+        {
+            "source": 29,
+            "target": 36,
+            "value": 1,
+            "studies":"Chua2006"
+        },
+        {
+            "source": 30,
+            "target": 36,
+            "value": 1,
+            "studies":"Wunderlich2017"
+        },
+        {
+            "source": 30,
+            "target": 48,
+            "value": 1,
+            "studies":"Deitrick2007"
+        },
+        {
+            "source": 30,
+            "target": 55,
+            "value": 1,
+            "studies":"Deitrick2007"
+        },
+        {
+            "source": 31,
+            "target": 36,
+            "value": 5,
+            "studies":"Newman2009"
+        },
+        {
+            "source": 31,
+            "target": 56,
+            "value": 1,
+            "studies":"Cox2013"
+        },
+        {
+            "source": 32,
+            "target": 46,
+            "value": 1,
+            "studies":"Zhou2017"
+        },
+        {
+            "source": 33,
+            "target": 50,
+            "value": 1,
+            "studies":"Ramos2010"
+        },
+        {
+            "source": 34,
+            "target": 59,
+            "value": 1,
+            "studies":"Gerharz2009"
+        },
+        {
+            "source": 35,
+            "target": 49,
+            "value": 20,
+            "studies":"Micallef2012, Simpson2014, Seipel2017, Li2007, Khan2015, Hansen2014 , Huff2008, Prabni2010, Bisantz2005, Leitner2000, Gschwandtner2016, Lee2007, Riveiro2014, Chlan2005, Hullman2018, Cheong2016, He2017"
+        },
+        {
+            "source": 35,
+            "target": 51,
+            "value": 2,
+            "studies":"Helldin2013"
+        },
+        {
+            "source": 35,
+            "target": 53,
+            "value": 1,
+            "studies":"Andre1998"
+        },
+        {
+            "source": 35,
+            "target": 59,
+            "value": 1,
+            "studies":"Lee2007"
+        },
+        {
+            "source": 36,
+            "target": 47,
+            "value": 1,
+            "studies":"Chua2006"
+        },
+        {
+            "source": 36,
+            "target": 48,
+            "value": 3,
+            "studies":"Micallef2012, Joslyn2012, Cheong2016"
+        },
+        {
+            "source": 36,
+            "target": 52,
+            "value": 5,
+            "studies":"Newman2009"
+        },
+        {
+            "source": 36,
+            "target": 53,
+            "value": 1,
+            "studies":"Andre1998"
+        },
+        {
+            "source": 36,
+            "target": 56,
+            "value": 1,
+            "studies":"Hullman2018"
+        },
+        {
+            "source": 36,
+            "target": 59,
+            "value": 1,
+            "studies":"Wunderlich2017"
+        },
+        {
+            "source": 37,
+            "target": 51,
+            "value": 1,
+            "studies":"Kreuzmair2016"
+        },
+        {
+            "source": 38,
+            "target": 51,
+            "value": 1,
+            "studies":"Kreuzmair2016"
+        },
+        {
+            "source": 39,
+            "target": 47,
+            "value": 1,
+            "studies":"Dong2012"
+        },
+        {
+            "source": 40,
+            "target": 52,
+            "value": 3,
+            "studies":"Herring2017, Herring2017, Herring2017"
+        },
+        {
+            "source": 41,
+            "target": 49,
+            "value": 3,
+            "studies":"Hansen2014 , Riveiro2014, Franklin2016"
+        },
+        {
+            "source": 41,
+            "target": 51,
+            "value": 1,
+            "studies":"Helldin2013"
+        },
+        {
+            "source": 42,
+            "target": 47,
+            "value": 2,
+            "studies":"Bisantz2005, Greis2015"
+        },
+        {
+            "source": 42,
+            "target": 48,
+            "value": 3,
+            "studies":"Bisantz2005, Joslyn2012"
+        },
+        {
+            "source": 43,
+            "target": 54,
+            "value": 2,
+            "studies":"Daradkeh2015"
+        },
+        {
+            "source": 44,
+            "target": 47,
+            "value": 1,
+            "studies":"Ibrekk1987"
+        },
+        {
+            "source": 44,
+            "target": 48,
+            "value": 1,
+            "studies":"Greis2015"
+        },
+        {
+            "source": 45,
+            "target": 48,
+            "value": 1,
+            "studies":""
+        },
+        {
+            "source": 45,
+            "target": 57,
+            "value": 1,
+            "studies":"Newman2009"
+        },
+        {
+            "source": 46,
+            "target": 58,
+            "value": 1,
+            "studies":"Zhou2017"
+        },
+        {
+            "source": 47,
+            "target": 60,
+            "value": 13,
+            "studies":"Aerts2003, Micallef2012, Belia2005, Dong2012, Seipel2017, Khan2015,Bisantz2005, Ibrekk1987, Greis2015"
+        },
+        {
+            "source": 47,
+            "target": 61,
+            "value": 9,
+            "studies":  "Chua2006"
+        },
+        {
+            "source": 47,
+            "target": 62,
+            "value": 4,
+            "studies":"Micallef2012"
+        },
+        {
+            "source": 48,
+            "target": 60,
+            "value": 18,
+            "studies":"Daradkeh2015, Greis2015, Joslyn2012, Riveiro2014, Cheong2016"
+        },
+        {
+            "source": 48,
+            "target": 61,
+            "value": 16,
+            "studies":  "Deitrick2007"
+        },
+        {
+            "source": 48,
+            "target": 62,
+            "value": 1,
+            "studies":""
+        },
+        {
+            "source": 49,
+            "target": 60,
+            "value": 23,
+            "studies":"Hullman2018, Cheong2016, Franklin2016, He2017"
+        },
+        {
+            "source": 49,
+            "target": 61,
+            "value": 16,
+            "studies":"Micallef2012"
+        },
+        {
+            "source": 49,
+            "target": 63,
+            "value": 1,
+            "studies":""
+        },
+        {
+            "source": 49,
+            "target": 64,
+            "value": 1,
+            "studies":""
+        },
+        {
+            "source": 50,
+            "target": 60,
+            "value": 4,
+            "studies":"Ramos2010"
+        },
+        {
+            "source": 50,
+            "target": 62,
+            "value": 2,
+            "studies":""
+        },
+        {
+            "source": 51,
+            "target": 60,
+            "value": 2,
+            "studies":"Kreuzmair2016"
+        },
+        {
+            "source": 51,
+            "target": 61,
+            "value": 5,
+            "studies" :"Helldin2013"
+        },
+        {
+            "source": 52,
+            "target": 60,
+            "value": 19,
+            "studies":"Yildiz2017, Hansen2014 , Greis2015, Newman2009, Riveiro2014"
+        },
+        {
+            "source": 52,
+            "target": 61,
+            "value": 20,
+            "studies" :"MacEachren1997"
+        },
+        {
+            "source": 52,
+            "target": 63,
+            "value": 1,
+            "studies":""
+        },
+        {
+            "source": 53,
+            "target": 60,
+            "value": 2,
+            "studies":"Andre1998"
+        },
+        {
+            "source": 54,
+            "target": 60,
+            "value": 2,
+            "studies":"Daradkeh2015"
+        },
+        {
+            "source": 54,
+            "target": 61,
+            "value": 1,
+            "studies":""
+        },
+        {
+            "source": 54,
+            "target": 62,
+            "value": 1,
+            "studies":""
+        },
+        {
+            "source": 55,
+            "target": 60,
+            "value": 1,
+            "studies":"Correll2018"
+        },
+        {
+            "source": 55,
+            "target": 61,
+            "value": 2,
+            "studies"  :"Deitrick2007"
+        },
+        {
+            "source": 56,
+            "target": 60,
+            "value": 1,
+            "studies":"Hullman2018"
+        },
+        {
+            "source": 56,
+            "target": 61,
+            "value": 1,
+            "studies":"Cox2013"
+        },
+        {
+            "source": 56,
+            "target": 64,
+            "value": 1,
+            "studies":""
+        },
+        {
+            "source": 57,
+            "target": 60,
+            "value": 2,
+            "studies":"Kay2016"
+        },
+        {
+            "source": 57,
+            "target": 61,
+            "value": 1,
+            "studies":""
+        },
+        {
+            "source": 57,
+            "target": 64,
+            "value": 1,
+            "studies":""
+        },
+        {
+            "source": 58,
+            "target": 60,
+            "value": 1,
+            "studies":"Zhou2017"
+        },
+        {
+            "source": 58,
+            "target": 61,
+            "value": 1,
+            "studies":""
+        },
+        {
+            "source": 59,
+            "target": 60,
+            "value": 3,
+            "studies":"Wunderlich2017, Gerharz2009"
+        },
+        {
+            "source": 59,
+            "target": 61,
+            "value": 1,
+            "studies":""
+        }
+    ]
+}

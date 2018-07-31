@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<title>In Pursuit of Error: A Survey of Uncertainty Visualization Evaluation</title>
+<style>
+	h1 {
+		width: 100% !important;
+		border-bottom: 3px double #DDDDDD;
+	}
+
+/*	body {
+		font: 16px 'PT Serif', Georgia, "Times New Roman", Times, serif;
+	}
+*/
+
+	body {
+            font-family: Arial, sans-serif;
+            font-size: 18px;
+      }
+
+      #pb1 {
+            padding-left: 50px;
+            width: 45%;
+            text-indent: -25px;
+            text-align: justify;
+            text-justify: distribute-all-lines;
+		font-family: Arial, sans-serif;
+            font-size: 18px;
+      }
+
+	.container {
+		margin: 0 auto;
+		text-align: center;
+		width: 80%;
+	}
+
+	.secondcontainer {
+		margin: 0 auto;
+		text-align: left;
+		width: 75%;
+	}
+
+	.about {
+		margin-bottom: 20px;
+		margin-top: 10px;
+	}
+
+	.abstract {
+		margin-bottom: 20px;
+		margin-top: 0px;
+	}
+
+
+	.reference {
+		text-decoration: underline;
+		color: #DD0000;
+	}
+	.node rect {
+		fill-opacity: .9;
+		shape-rendering: crispEdges;
+	}
+
+	.node text {
+		font: 11px sans-serif;
+		pointer-events: none;
+		text-shadow: 0 1px 0 #fff;
+	}
+
+	.link {
+		fill: none;
+		stroke: darkblue;
+		stroke-opacity: .2;
+	}
+
+	.link:hover {
+		stroke-opacity: .5;
+	}
+
+	 #right {
+            font-size: 10pt;
+            float: right;
+            color: #A0A0A0;
+      }
+
+	/*accordion styling*/
+
+	/* Style the buttons that are used to open and close the accordion panel */
+
+	.accordion {
+		background-color: #eee;
+		color: #444;
+		cursor: pointer;
+		padding: 18px;
+		width: 100%;
+		text-align: left;
+		border: none;
+		outline: none;
+		transition: 0.4s;
+	}
+	.accordion .pathname {
+        font-size: 14pt;
+    }
+
+	.accordion-first {
+		background-color: #eee;
+		color: #444;
+		cursor: pointer;
+		padding: 18px;
+		width: 100%;
+		text-align: left;
+		border: none;
+		outline: none;
+		transition: 0.4s;
+	}
+
+	/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+
+	.active,
+	.accordion:hover {
+		background-color: #ccc;
+	}
+
+	/* Style the accordion panel. Note: hidden by default */
+
+	.panel {
+		padding: 0 18px;
+		background-color: white;
+		display: none;
+		overflow: hidden;
+	}
+
+	.panel1 {
+		padding: 0 18px;
+		background-color: white;
+		display: block;
+	}
+
+
+	div.tooltip {
+		position: absolute;
+		text-align: left;
+		width: 100px;
+		height: 100px;
+		padding: 2px;
+		font: 10px sans-serif;
+		background: white;
+		border-style: solid;
+		border-color: lightgrey;
+		overflow-y: auto;
+		line-height: 1.1rem;
+	}
+</style>
+
+<body>
+	<div class="container">
+		<H1>In Pursuit of Error: A Survey of Uncertainty Visualization Evaluation</H1>
+	</div>
+
+	<!-- </button> -->
+	<div class="panel panel1" id="full"></div>
+
+	<div class="container">
+		<!-- <button class="accordion"> -->
+		<h3>Evaluation paths describing decisions made in <a class="reference"  href="https://visualization.ischool.uw.edu/~xiaoliq/uncertainty_vis_eval/DataReferences.html" target="_blank">86 studies evaluating uncertainty visualizations</a></h3>
+	</div>
+
+	<div class="secondcontainer">
+		<h2>About</h2>
+		<div class="about">
+			This page contains information associated with the IEEE VIS 2018 publication:
+			<div id="pbl"><br>Hullman, Jessica; Qiao, Xiaoli; Correll, Michael; Kale, Alex &amp; Kay, Matthew.<b> In Pursuit of Error: A Survey of Uncertainty Visualization Evaluation.</b> <i>IEEE Transactions on Visualization &amp; Computer Graphics</i>, 2019</div>
+		</div>
+
+		<h2>Abstract</h2>
+		<div class="abstract">
+			Understanding the uncertainty present in data is critical to effectively reasoning about visualized data. However, evaluating
+			the impact of an uncertainty visualization is complex due to the difficulties that people have interpreting uncertainty
+			and the challenge of defining correct behavior with uncertainty information. Currently, evaluators of uncertainty visualization
+			must rely on general purpose visualization evaluation frameworks which can be ill-equipped to provide guidance with the
+			unique difficulties of assessing response to uncertainty. To help evaluators navigate these complexities, we present a
+			taxonomy for characterizing decisions related to evaluating the impact of uncertainty visualizations. Our taxonomy differentiates
+			six levels of decisions that comprise an uncertainty visualization evaluation: the research questions, expected effects
+			from an uncertainty visualization, evaluation goals, measures, elicitation techniques, and analysis paradigms. Applying
+			our taxonomy to 86 user studies of uncertainty visualizations, we find that existing evaluation practice, particularly
+			in visualization research, focus on Performance and Satisfaction-based measures that assume more predictable and statistically-driven
+			judgment behavior than is suggested by research on human judgment and decision making. We reflect on common themes in
+			evaluation practice concerning the interpretation and semantics of uncertainty, the use of confidence reporting, and the
+			disparity between evaluating decision making versus accuracy. We conclude with a concrete set of recommendations for evaluators
+			designed to reduce the mismatch between the conceptualization of uncertainty in visualization versus other fields.
+		</div>
+
+		<h2>More diagrams</h2>
+
+	</div>
+
+	<div style="text-align: center">
+		<button class="accordion" style="width: 75%">
+			<p class="pathname">Evaluation Paths Targetting <b>Performance</b></p>
+		</button>
+		<div class="panel" id="subp" ></div>
+
+		<!--<button class="accordion" style="width: 75%">
+			<p class="pathname">Evaluation Paths Targetting <b>Performance</b> with <b>Increasing Accuracy</b> as the Desired Effect</p>
+		</button>
+		<div class="panel" id="subpacc"></div>-->
+
+		<!--<button class="accordion"><h3>Performance - Not Accuracy</h3></button>
+  <div class="panel" id="subpnacc"></div>-->
+
+
+		<button class="accordion" style="width: 75%">
+			<p class="pathname">Evaluation Paths Targetting <b>Interpretation and Semantics</b></p>
+		</button>
+		<div class="panel" id="subis"></div>
+
+
+		<button class="accordion" style="width: 75%">
+			<p class="pathname">Evaluation Paths Targetting <b>User Experience</b></p>
+		</button>
+		<div class="panel" id="subue"></div>
+
+		<button class="accordion" style="width: 75%">
+			<p class="pathname">Evaluation Paths focused on <b>Subjective Confidence Measures</b></p>
+		</button>
+		<div class="panel" id="subc"></div>
+
+
+		<button class="accordion" style="width: 75%">
+		  <p class="pathname">Evaluation Paths focused on <b>Decision Measures</b></p>
+		</button>
+		<div class="panel" id="subd"></div>
+	</div>
+	<div class="secondcontainer">
+			<h2>List of Studies</h2>
+			<i><a class="reference" href="https://visualization.ischool.uw.edu/~xiaoliq/uncertainty_vis_eval/DataReferences.html" target="_blank">List of all the publications</a></i>
+
+		</div>
+	 <p id="right">Website and visualizations created by Jessica Hullman and Xiaoli Qiao</p>
+
+
+
+
+
+
+
+
+
+
+	<br/>
+
+	<script src="//cdnjs.cloudflare.com/ajax/libs/d3/4.2.0/d3.min.js"></script>
+	<script src="sankey.js"></script>
+
+	<script>
+		var acc = document.getElementsByClassName("accordion");
+		var i;
+
+		for (i = 0; i < acc.length; i++) {
+			acc[i].addEventListener("click", function () {
+				/* Toggle between adding and removing the "active" class,
+				to highlight the button that controls the panel */
+				this.classList.toggle("active");
+
+				/* Toggle between hiding and showing the active panel */
+				var panel = this.nextElementSibling;
+				if (panel.style.display === "block") {
+					panel.style.display = "none";
+				} else {
+					panel.style.display = "block";
+				}
+			});
+		}
+
+		var margin = {
+			top: 5,
+			right: 1,
+			bottom: 6,
+			left: 1
+		},
+			width = window.innerWidth - 50 - margin.left - margin.right,
+			height = 450 - margin.top - margin.bottom,
+			animDuration = 800;
+
+		var formatNumber = d3.format(",.0f"),
+			format = function (d) {
+				return formatNumber(d) + " instances";
+			};
+
+		/* ------------------------------------- */
+
+		// Define the div for the tooltip
+		var div = d3.select("body").append("div")
+			.attr("class", "tooltip")
+			.style("opacity", 0);
+
+		var svg = d3.select("#full").append("svg")
+			.attr("width", width)
+			.attr("height", height + margin.top + margin.bottom)
+			.append("g")
+			.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+		var flinks = svg.append("g"),
+			fnodes = svg.append("g");
+
+		var fsankey = d3.sankey()
+			.nodeWidth(15)
+			.nodePadding(10)
+			.size([width, height])
+			.align('justify');
+
+		var fpath = fsankey.link();
+
+		d3.json("sankey_full.json", function (energy) {
+			console.log(energy);
+			fsankey
+				.nodes(energy.nodes)
+				.links(energy.links)
+				.layout(32)
+			d3Digest(fsankey, flinks, fnodes, fpath);
+		});
+
+
+
+
+
+		/* ---------------------------------------------------- */
+
+		var svg3 = d3.select("#subp").append("svg")
+			.attr("width", width + margin.left + margin.right)
+			.attr("height", height + margin.top + margin.bottom - 200)
+			.append("g")
+			.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+		var links3 = svg3.append("g"),
+			nodes3 = svg3.append("g");
+
+		var sankey3 = d3.sankey()
+			.nodeWidth(15)
+			.nodePadding(10)
+			.size([width, height - 200])
+			.align('justify');
+
+		var path3 = sankey3.link();
+
+		d3.json("sankey_perf.json", function (energy) {
+			console.log(energy);
+			sankey3
+				.nodes(energy.nodes)
+				.links(energy.links)
+				.layout(32);
+
+			d3Digest(sankey3, links3, nodes3, path3);
+		});
+
+		/* --------------------------------------------- */
+
+		var svg4 = d3.select("#subpacc").append("svg")
+			.attr("width", width + margin.left + margin.right)
+			.attr("height", height + margin.top + margin.bottom - 200)
+			.append("g")
+			.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+		var links4 = svg4.append("g"),
+			nodes4 = svg4.append("g");
+
+		var sankey4 = d3.sankey()
+			.nodeWidth(15)
+			.nodePadding(10)
+			.size([width, height - 200])
+			.align('justify');
+
+		var path4 = sankey4.link();
+
+		d3.json("performance_accuracy.json", function (energy) {
+			console.log(energy);
+			sankey4
+				.nodes(energy.nodes)
+				.links(energy.links)
+				.layout(32);
+
+			d3Digest(sankey4, links4, nodes4, path4);
+		});
+
+		/*
+			var svg5 = d3.select("#subpnacc").append("svg")
+			  .attr("width", width + margin.left + margin.right)
+			  .attr("height", height + margin.top + margin.bottom-200)
+			  .append("g")
+			  .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+	    
+			var links5 = svg5.append("g"),
+				nodes5 = svg5.append("g");
+	    
+			var sankey5 = d3.sankey()
+			  .nodeWidth(15)
+			  .nodePadding(10)
+			  .size([width, height-200])
+			  .align('justify');
+	    
+			var path5 = sankey4.link();
+	    
+			d3.json("sankey_perf_notacc.json", function(energy) {
+				console.log(energy);
+			  sankey5
+				.nodes(energy.nodes)
+				.links(energy.links)
+				.layout(32);
+	    
+			  d3Digest(sankey5, links5, nodes5, path5);
+			});
+		*/
+
+		var svg6 = d3.select("#subis").append("svg")
+			.attr("width", width + margin.left + margin.right)
+			.attr("height", height + margin.top + margin.bottom - 200)
+			.append("g")
+			.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+		var links6 = svg6.append("g"),
+			nodes6 = svg6.append("g");
+
+		var sankey6 = d3.sankey()
+			.nodeWidth(15)
+			.nodePadding(10)
+			.size([width, height - 200])
+			.align('justify');
+
+		var path6 = sankey6.link();
+
+		d3.json("sankey_interpre.json", function (energy) {
+			console.log(energy);
+			sankey6
+				.nodes(energy.nodes)
+				.links(energy.links)
+				.layout(32);
+
+			d3Digest(sankey6, links6, nodes6, path6);
+		});
+
+		/* ------------------------------ */
+
+		var svg7 = d3.select("#subue").append("svg")
+			.attr("width", width + margin.left + margin.right)
+			.attr("height", height + margin.top + margin.bottom - 200)
+			.append("g")
+			.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+		var links7 = svg7.append("g"),
+			nodes7 = svg7.append("g");
+
+		var sankey7 = d3.sankey()
+			.nodeWidth(15)
+			.nodePadding(10)
+			.size([width, height - 200])
+			.align('justify');
+
+		var path7 = sankey7.link();
+
+		d3.json("sankey_exp.json", function (energy) {
+			console.log(energy);
+			sankey7
+				.nodes(energy.nodes)
+				.links(energy.links)
+				.layout(32);
+
+			d3Digest(sankey7, links7, nodes7, path7);
+		});
+
+		/* ------------------------------ */
+
+		var svg8 = d3.select("#subc").append("svg")
+			.attr("width", width + margin.left + margin.right)
+			.attr("height", height + margin.top + margin.bottom - 200)
+			.append("g")
+			.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+		var links8 = svg8.append("g"),
+			nodes8 = svg8.append("g");
+
+		var sankey8 = d3.sankey()
+			.nodeWidth(15)
+			.nodePadding(10)
+			.size([width, height - 200])
+			.align('justify');
+
+		var path8 = sankey8.link();
+
+		d3.json("sankey_conf.json", function (energy) {
+			console.log(energy);
+			sankey8
+				.nodes(energy.nodes)
+				.links(energy.links)
+				.layout(32);
+
+			d3Digest(sankey8, links8, nodes8, path8);
+		});
+
+		/* ---------------------------------- */
+
+		var svg9 = d3.select("#subd").append("svg")
+			.attr("width", width + margin.left + margin.right)
+			.attr("height", height + margin.top + margin.bottom - 200)
+			.append("g")
+			.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+		var links9 = svg9.append("g"),
+			nodes9 = svg9.append("g");
+
+		var sankey9 = d3.sankey()
+			.nodeWidth(15)
+			.nodePadding(10)
+			.size([width, height - 200])
+			.align('justify');
+
+		var path9 = sankey9.link();
+
+		d3.json("sankey_dec.json", function (energy) {
+			console.log(energy);
+			sankey9
+				.nodes(energy.nodes)
+				.links(energy.links)
+				.layout(32);
+
+			d3Digest(sankey9, links9, nodes9, path9);
+		});
+
+
+
+		function d3Digest(sankey, links, nodes, path) {
+
+			var link = links.selectAll(".link")
+				.data(sankey.links());
+			// newLink should be a g element
+			//var newLink = link.enter().append("g");
+			//var linkElement = newLink.append("path")
+			//.attr("class", "link")
+			//	.style("stroke-width", function (d) {
+			//		return Math.max(1, d.dy) + 'px';
+			//		});
+			//var tooltip = newLink.append("div")
+			//.attr("tooltip")
+			//.attr("text", jkjkjhkjh)
+
+			var newLink = link.enter().append("path")
+				.attr("class", "link").on("mouseover", function (d) {
+					div.transition()
+						.duration(10)
+						.style("opacity", 1);
+					div.html(
+						d.studies
+					)
+				//		.style("left", (d3.event.pageX) + "px")
+				//		.style("top", (d3.event.pageY - 28) + "px");
+						.style("left", returnLeft(d3.event.pageX) + "px")
+						.style("top", (d3.event.pageY - 28) + "px");
+				})
+				.on("mouseout", function (d) {
+
+					div.transition()
+						.duration(7000)
+						.style("opacity", 0);
+
+
+				})
+				.style("stroke-width", function (d) {
+					return Math.max(1, d.dy) + 'px';
+				});
+
+			// newLink.append("title")
+			// 	.text(function (d) {
+			// 		return format(d.value) + "\n" + d.publication;
+			// 	});
+
+			link = newLink.merge(link);
+			console.log(link);
+			console.log(typeof (link));
+			link.transition().duration(animDuration)
+				.attr("d", path)
+				.style("stroke-width", function (d) {
+					return Math.max(1, d.dy) + 'px';
+				});
+
+			var node = nodes.selectAll(".node")
+				.data(sankey.nodes());
+
+			var newNode = node.enter().append("g")
+				.attr("class", "node");
+
+			newNode.attr("transform", function (d) {
+				return "translate(" + d.x + "," + d.y + ")";
+			});
+
+			node.transition().duration(animDuration)
+				.attr("transform", function (d) {
+					return "translate(" + d.x + "," + d.y + ")";
+				});
+
+			node = newNode.merge(node);
+
+			newNode.append('rect');
+			newNode.append('text');
+
+			newNode.select("rect")
+				.attr("width", sankey.nodeWidth())
+				.attr("height", function (d) {
+					return d.dy;
+				})
+				.append("title")
+				.text(function (d) {
+					return d.name + "\n" + format(d.value);
+				});
+
+			node.select("rect")
+				.style("fill", function (d) {
+					return d.color = d.color;
+				})
+				.style("stroke", function (d) {
+					return d3.rgb(d.color).darker(2);
+				})
+				.transition().duration(animDuration)
+				.attr("height", function (d) {
+					return d.dy;
+				});
+
+			newNode.select("text")
+				.attr("dy", ".35em")
+				.attr("transform", null)
+				.attr("y", function (d) {
+					return d.dy / 2;
+				});
+
+			node.select("text")
+				.text(function (d) {
+					return d.name;
+				})
+				.attr("x", -6)
+				.attr("text-anchor", "end")
+				.filter(function (d) {
+					return d.x < width / 2;
+				})
+				.attr("x", 6 + sankey.nodeWidth())
+				.attr("text-anchor", "start");
+
+			node.select('text').transition().duration(animDuration)
+				.attr("y", function (d) {
+					return d.dy / 2;
+				});
+		}
+
+		function returnLeft(mypageX) {
+			//adusts the x position of tooltip when its too clsoe the edge of the svg
+				console.log("mypageX: "+mypageX);
+				console.log("svgwidth: "+d3.select("svg").style("width"));
+				var divWidth=150;
+				console.log("if "+mypageX+" >= "+ parseInt(d3.select("svg").style("width"), 10)+" - 150");
+				var testvalue =  (parseInt(d3.select("svg").style("width"), 10) - 150);
+				console.log("test value gt "+testvalue);
+				if(mypageX >= (parseInt(d3.select("svg").style("width"), 10) - 150)) {
+					console.log("thrown");
+					var newmypagex = mypageX - 150;
+					mypageX = newmypagex;
+					console.log("newmypagex "+mypageX);
+				}
+				return mypageX;
+		}
+			
+
+	</script>
