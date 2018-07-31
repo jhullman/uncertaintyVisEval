@@ -3,6 +3,8 @@
 
   *Hullman, Jessica, Qiao, Xiaoli, Correll, Michael, Kale, Alex, and Kay, Matthew. In Pursuit of Error: A Survey of Uncertainty Visualization Evaluation. IEEE InfoVis 2018.* 
 
+![Alt text](/website.png)
+
 View the project website at: 
 
 <a href="https://visualization.ischool.uw.edu/~xiaoliq/uncertainty_vis_eval/index.html">https://visualization.ischool.uw.edu/~xiaoliq/uncertainty_vis_eval/index.html</a>
