@@ -5,11 +5,11 @@
 
 View the project website at: 
 
-https://visualization.ischool.uw.edu/~xiaoliq/uncertainty_vis_eval/index.html
+<a href="https://visualization.ischool.uw.edu/~xiaoliq/uncertainty_vis_eval/index.html">https://visualization.ischool.uw.edu/~xiaoliq/uncertainty_vis_eval/index.html</a>
 
 
 ## Directories and Files
 
-  - **visualizations/** - A description
+  - **visualizations/** - D3 Sankey diagram visualizations and project website.
 
   - **Classifying_Uncertainty_Vis_Evaluations.xlsx** - Spreadsheet containing all coded studies and list of study information. 
