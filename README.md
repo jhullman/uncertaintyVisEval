@@ -9,7 +9,7 @@ View the project website at:
 
 <a href="https://visualization.ischool.uw.edu/~xiaoliq/uncertainty_vis_eval/index.html">https://visualization.ischool.uw.edu/~xiaoliq/uncertainty_vis_eval/index.html</a>
 
-To cite: Use DOI for Repository ![Alt text](https://zenodo.org/badge/143046936.svg)
+To cite: ![Alt text](https://zenodo.org/badge/143046936.svg)
 
 ## Directories and Files
 
